@@ -33,7 +33,8 @@ blacklist nfc
 ```
 
 Dan jalankan command berikut
-```
+```bash
+sudo update-initramfs -u
 modprobe -r pn533 nfc
 ```
 
