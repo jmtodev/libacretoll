@@ -43,6 +43,7 @@ Instalasi libacretoll selanjutnya dapat dilakukan dengan command berikut:
 dpkg -i acretoll.deb
 ```
 
+## Registrasi
 Untuk mengetahui control unit id `cuid`, dapat dilakukan dengan command berikut:
 ```bash
 acretoll id
@@ -69,6 +70,7 @@ acretoll status
   # Unregistered
 ```
 
+# Panduan Penggunaan
 Untuk melihat quick help, dapat dilakukan dengan command berikut:
 ```bash
 acretoll help
@@ -237,7 +239,7 @@ telnet localhost:24042
   # ack
 ```
 
-## Protokol
+# Protokol
 Protokol berupa line-terminated message, dimana satu message akan dikirimkan
 dalam satu baris yang independent.
 
