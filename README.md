@@ -43,7 +43,10 @@ Instalasi libacretoll selanjutnya dapat dilakukan dengan command berikut:
 dpkg -i acretoll.deb
 ```
 
-Bila terjadi error pada `GLIBC` version, gunakan file `acretoll-old-glibc.deb` untuk instalasi.
+Untuk arm64, bisa dengan menggunakan file `acretoll-aarch64.deb`
+```bash
+dpkg -i acretoll-aarch64.deb
+```
 
 ## Registrasi
 Untuk mengetahui control unit id `cuid`, dapat dilakukan dengan command berikut:
